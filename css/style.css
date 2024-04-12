@@ -1,0 +1,17 @@
+.navbar-nav .nav-link {
+  color: white; /* Ensures text is white */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255); /* Light background on hover */
+  color: black;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; /* Highlights the current page */
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: red; /* Lighter background for active link */
+}
